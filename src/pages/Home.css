@@ -1,0 +1,9 @@
+h1 {
+    color: #6B7A99;
+    margin: 10px;
+}
+@media only screen and (min-width: 600px) {
+.Cards {
+    display: flex;
+}
+}
