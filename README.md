@@ -1,4 +1,4 @@
-Bookstore
+Livraria Odisseia
 
 Projeto do módulo 3 - react do curso programadores cariocas
 
