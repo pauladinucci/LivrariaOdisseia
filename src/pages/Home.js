@@ -1,5 +1,4 @@
 import Carousel from "./Inicio/Carousel";
-import NavBarInicio from "./Inicio/NavBar";
 import './Home.css';
 import CardInicio from "./Inicio/Card";
 
@@ -7,7 +6,6 @@ import CardInicio from "./Inicio/Card";
 const Home = () => {
     return (
         <>
-            <NavBarInicio />
             <Carousel />
             <h1>Home</h1>
             <div className="Cards">

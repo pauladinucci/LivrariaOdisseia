@@ -1,0 +1,30 @@
+nav {
+    background-color: #9FD48D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 20px;
+    list-style: none;
+}
+
+.search {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: 0 none;
+    width: 250px;
+}
