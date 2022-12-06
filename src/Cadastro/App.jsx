@@ -13,7 +13,8 @@ import {
 
 function App() {
   return (
-    <Box h="100vh">
+    <>
+    <Box h="100vh"></Box>
       <Center
         as="header"
         h={150}
@@ -23,6 +24,7 @@ function App() {
         fontSize="4xl"
         pb="8"
       >
+      
         Cadastro de Usuários
       </Center>
       <Flex
@@ -30,7 +32,7 @@ function App() {
         justify="center"
         bg="blackAlpha.200"
         h="calc(100vh - 150px)"
-      >
+      ></Flex>
         <Center
           w="100%"
           maxW={840}
@@ -40,21 +42,21 @@ function App() {
           borderRadius={5}
           p="6"
           boxShadow="0 1px 2px #ccc"
-        >
-          <FormControl display="flex" flexDir="column" gap="4">
+        ></Center>
+          <FormControl display="flex" flexDir="column" gap="4"></FormControl>
             <HStack spacing="4">
               <Box w="100%">
                 <FormLabel htmlFor="nome">Nome Completo</FormLabel>
                 <Input id="nome" />
               </Box>
-              <HStack spacing="4">
-              <Box w="100%">
+            <HStack spacing="4">
+            <Box w="100%">
                 <FormLabel>Sexo</FormLabel>
                 <RadioGroup defaultValue="Masculino">
                   <HStack spacing="24px">
                     <Radio value="Masculino">Masculino</Radio>
                     <Radio value="Feminino">Feminino</Radio>
-                  </HStack>
+                  
               <Box w="100%">
                 <FormLabel htmlFor="usuario">Nome de usuário</FormLabel>
                 <Input id="nome" />
@@ -67,7 +69,7 @@ function App() {
                 <FormLabel htmlFor="senha"><Password>Senha</Password></FormLabel>
                 <Input id="Senha" />
               </Box>
-            </HStack>
+            </HStack>   
             <HStack spacing="4">
               <Box w="100%">
                 <FormLabel htmlFor="nasc">Data de Nascimento</FormLabel>
@@ -104,25 +106,25 @@ function App() {
             </HStack>
             <HStack spacing="4">
               <Box w="100%">
-              function MyForm() {
-  const [myCar, setMyCar] = useState("Drama");
+                        {/* function MyForm() {
+            const [myCar, setMyCar] = useState("Drama");
 
-  const handleChange = (event) => {
-    setMygender(event.target.value)
-  }
+            const handleChange = (event) => {
+              setMygender(event.target.value)
+            }
 
-  return (
-    <form>
-      <select value={setMygender} onChange={handleChange}>
-        <option value="Drama">Drama</option>
-        <option value="Ação">Ação</option>
-        <option value="Suspense">Suspense</option>
-        <option value="Scifi">Ficção Científica</option>
-        <option value="Autoajuda">Auto Ajuda</option>
-      </select>
-    </form>
-  )
-}
+            return (
+              <form>
+                <select value={setMygender} onChange={handleChange}>
+                  <option value="Drama">Drama</option>
+                  <option value="Ação">Ação</option>
+                  <option value="Suspense">Suspense</option>
+                  <option value="Scifi">Ficção Científica</option>
+                  <option value="Autoajuda">Auto Ajuda</option>
+                </select>
+              </form>
+            )
+          } */}
               </Box>
             </HStack>
             <HStack justify="center">
@@ -140,10 +142,11 @@ function App() {
                 Enviar
               </Button>
             </HStack>
-          </FormControl>
-        </Center>
-      </Flex>
-    </Box>
+          </RadioGroup>  
+        </Box>
+      </HStack>
+    </HStack>
+    </>
   );
 }
 
