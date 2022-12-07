@@ -10,9 +10,9 @@ const Layout = () => {
     <>
       <nav>
         <img
-          src={Logo} 
+          src={Logo}
           width="100"
-          />
+        />
         <div className="search">
           <img
             src={ImgSearch}
@@ -24,18 +24,21 @@ const Layout = () => {
         </div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <a className="color" href="/">Home&nbsp;&nbsp;</a>|
           </li>
           <li>
-            <Link to="/">Criar Conta</Link>
+            <a className="color" href="/">Criar Conta &nbsp;&nbsp;</a>|
           </li>
           <li>
-            <Link to="/">Entrar</Link>
+            <a className="color" href="/">Entrar</a>
           </li>
           <li>
-            <img
-            src={Cart}
-            />
+            <a href="/">
+              <img
+                src={Cart}
+                width="21px"
+              />
+            </a>
           </li>
         </ul>
       </nav>
