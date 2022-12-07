@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background-color: #9FD48D;
     display: flex;
@@ -11,8 +16,17 @@ ul {
 }
 
 li {
-    padding: 20px;
+    padding: 10px;
     list-style: none;
+    color: #a36ff5;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.color {
+    color: #a36ff5;
 }
 
 .search {
