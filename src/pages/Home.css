@@ -14,3 +14,9 @@ h1 {
     align-items: center;
 }
 }
+
+.Cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
