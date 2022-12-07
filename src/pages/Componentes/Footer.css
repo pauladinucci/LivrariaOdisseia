@@ -1,0 +1,18 @@
+.FooterBlack {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.WhiteFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
