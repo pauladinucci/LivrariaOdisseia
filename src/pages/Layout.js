@@ -4,6 +4,7 @@ import ImgArrow from "../images/arrow.png";
 import Logo from "../images/logo.png";
 import "./Layout.css";
 import Cart from "../images/cart.png";
+import Cadastro from "./Cadastro/Cadastro";
 
 const Layout = () => {
   return (
@@ -27,7 +28,7 @@ const Layout = () => {
             <a className="color" href="/">Home&nbsp;&nbsp;</a>|
           </li>
           <li>
-            <a className="color" href="/">Criar Conta &nbsp;&nbsp;</a>|
+            <a className="color" href= {Cadastro} >Criar Conta &nbsp;&nbsp;</a>|
           </li>
           <li>
             <a className="color" href="/">Entrar</a>
