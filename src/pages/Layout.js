@@ -28,7 +28,7 @@ const Layout = () => {
             <a className="color" href="/">Home&nbsp;&nbsp;</a>|
           </li>
           <li>
-            <a className="color" href= {Cadastro} >Criar Conta &nbsp;&nbsp;</a>|
+            <a className="color" href= "/Cadastro" >Criar Conta &nbsp;&nbsp;</a>|
           </li>
           <li>
             <a className="color" href="/">Entrar</a>
